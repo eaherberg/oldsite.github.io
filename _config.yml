@@ -1,0 +1,13 @@
+# Site settings
+title: Erik Herberg
+baseurl: "" 
+
+# Build settings
+markdown: kramdown
+
+# Assets Pipeline
+assets:
+  sources:
+    - _assets
+    - _assets/stylesheets
+    - _assets/documents
