@@ -1,0 +1,41 @@
+---
+layout: page
+id: Reflections
+permalink: /reflections/
+
+---
+
+<p>Reflections description text here. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ab beatae doloremque accusantium, magnam itaque rerum perferendis reiciendis dignissimos.</p>
+
+<section class="fall">
+	<h3>Fall 2014</h3>
+	<ul>
+		{% for p in site.pages %}
+			{% if p.category contains 'fall' %}
+				<li><a href="{{p.url}}">{{p.title}}</a></li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+</section>
+
+<section class="winter">
+	<h3>Winter 2015</h3>
+	<ul>
+		{% for p in site.pages %}
+			{% if p.category contains 'winter' %}
+				<li><a href="{{p.url}}">{{p.title}}</a></li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+</section>
+
+<section class="spring">
+	<h3>Spring 2015</h3>
+	<ul>
+		{% for p in site.pages %}
+			{% if p.category contains 'spring' %}
+				<li><a href="{{p.url}}">{{p.title}}</a></li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+</section>
