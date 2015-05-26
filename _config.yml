@@ -11,3 +11,5 @@ assets:
     - _assets
     - _assets/stylesheets
     - _assets/documents
+
+exclude: [Rakefile]
