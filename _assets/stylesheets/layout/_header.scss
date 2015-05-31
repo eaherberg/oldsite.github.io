@@ -1,0 +1,25 @@
+.site-header {
+	background: #eee;
+	padding: 20px 0;
+
+	a {color: #333; }
+	.site-title {
+		font-size: 1.2em;
+		font-weight: 600;}
+	
+	.site-nav {
+		@extend .cf;
+		float:right;
+		ul {
+			margin: 0;
+			padding: 0;
+		}
+		li {
+			margin-left: 20px;
+			list-style: none;
+			float: left;
+		}
+	}
+	.current { font-weight: 600 }
+
+}

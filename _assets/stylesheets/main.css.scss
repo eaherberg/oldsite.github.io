@@ -2,7 +2,15 @@
 @import "susy";
 @import "modular-scale";
 
-@import "base/normalize";
-@import "base/typography";
+@import "vendor/normalize";
+
+@import "base/variables";
+@import "base/helpers";
+@import "base/base";
 
 @import "layout/default";
+@import "layout/header";
+@import "layout/footer";
+
+@import "modules/lists";
+
