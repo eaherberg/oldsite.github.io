@@ -1,0 +1,31 @@
+//TYPOGRAPHY
+
+/* Modular Scale*/
+$ms-base: 1rem;
+$ms-ratio: $golden;
+
+/*Sizing*/
+$line-height: 1.75;
+
+//FONTS
+$sans-light: 'open_sanslight';
+$sans-light-italic: 'open_sanslight_italic';
+
+$sans-regular: 'open_sansregular';
+$sans-italic: 'open_sansitalic';
+
+$sans-semibold: 'open_sanssemibold';
+$sans-semibold-italic: 'open_sanssemibold_italic';
+
+$sans-bold: 'open_sansbold';
+$sans-bold-italic: 'open_sansbold_italic';
+
+$sans-xbold: 'open_sansextrabold'; 
+$sans-xbold-italic: 'open_sansextrabold_italic';
+
+// COLORS
+$dark-blue: #051025;
+$body-link: #096CC8;
+$bg-shade-1: #ced6db;
+$dark: #555;
+$light: #eee;

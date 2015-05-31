@@ -9,6 +9,7 @@ markdown: kramdown
 assets:
   sources:
     - _assets
+    - _assets/fonts
     - _assets/stylesheets
     - _assets/documents
 

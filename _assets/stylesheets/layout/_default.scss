@@ -5,17 +5,9 @@ $susy: (
   math: fluid,
   output: float,
   gutter-position: inside,
+  global-box-sizing: border-box,
 );
 
 .content {
 	@include container;
 }
-
-.page-content {
-	background: #f9f9f9;
-}
-
-.page-header {
-	background: #A4F6E7
-}
-

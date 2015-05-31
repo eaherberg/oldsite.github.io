@@ -1,0 +1,18 @@
+.home {
+	.banner {
+		height: 100vh;
+		background-color: #222;
+		// background-image: linear-gradient(rgba(176, 140, 193, 0.4), rgba(218, 197, 93, 0.5));
+		// background-repeat: no-repeat;
+		// background-position: 50% 50%;
+		// background-size: 100% 100%, cover;
+	
+		h1 {
+			font-family: $sans-semibold;
+			font-size: ms(3.5);					
+			color: rgba(255,255,255,.9);
+			margin:0;
+			padding: 0;
+		}
+	}
+}	

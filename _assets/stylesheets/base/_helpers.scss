@@ -1,19 +1,28 @@
 /*clearfix*/
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.cf:after {
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
     clear: both;
+  }
 }
 
-/*
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
+/*sticky footer*/
 
-.cf {
-    *zoom: 1;
+html,
+body { 
+  height: 100%; 
+}
+body {
+  display: table;
+  width: 100%;
+  /* Fix for Firefox and IE to keep correct max-width behaviour on images: */
+  table-layout: fixed;
+}
+.page-row {
+  display: table-row;
+  height: 1px;
+} 
+.page-row-expanded { 
+  height: 100%; 
 }

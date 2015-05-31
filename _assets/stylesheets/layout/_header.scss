@@ -1,6 +1,8 @@
 .site-header {
-	background: #eee;
-	padding: 20px 0;
+	background: #fff;
+	border-bottom: 1px solid $dark-blue;
+	padding-top: 16px;
+	height: 70px;
 
 	a {color: #333; }
 	.site-title {
@@ -8,9 +10,9 @@
 		font-weight: 600;}
 	
 	.site-nav {
-		@extend .cf;
 		float:right;
 		ul {
+			@extend %clearfix;
 			margin: 0;
 			padding: 0;
 		}

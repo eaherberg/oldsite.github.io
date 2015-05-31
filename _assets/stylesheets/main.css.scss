@@ -6,11 +6,13 @@
 
 @import "base/variables";
 @import "base/helpers";
+@import "base/fonts";
 @import "base/base";
 
 @import "layout/default";
 @import "layout/header";
 @import "layout/footer";
 
-@import "modules/lists";
+@import "pages/home";
+
 

@@ -3,16 +3,12 @@
 
   {% include head.html %}
 
-  <body>
-
-    {% include header.html %}
-
-    <div class="{% if page.id %}{{ page.id | slugify }}{% else %}home{% endif %} page-content">
-      {{ content }}
+  <body class="{% if page.id %}{{ page.id | slugify }}{% else %}home{% endif %}">
+  	{% include header.html %}
+    <div class="main">
+    	{{ content }}
     </div>
-
     {% include footer.html %}
-
   </body>
 
 </html>
