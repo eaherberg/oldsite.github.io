@@ -4,10 +4,11 @@
 	padding-top: 16px;
 	height: 70px;
 
-	a {color: #333; }
 	.site-title {
-		font-size: 1.2em;
-		font-weight: 600;}
+		font-family:$sans-bold;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
 	
 	.site-nav {
 		float:right;
@@ -17,9 +18,12 @@
 			padding: 0;
 		}
 		li {
-			margin-left: 20px;
+			margin-left: 30px;
 			list-style: none;
 			float: left;
+			a {
+				font-size: ms(-.2);
+			}
 		}
 	}
 	.current { font-weight: 600 }
