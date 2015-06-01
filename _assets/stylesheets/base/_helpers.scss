@@ -6,23 +6,3 @@
     clear: both;
   }
 }
-
-/*sticky footer*/
-
-html,
-body { 
-  height: 100%; 
-}
-body {
-  display: table;
-  width: 100%;
-  /* Fix for Firefox and IE to keep correct max-width behaviour on images: */
-  table-layout: fixed;
-}
-.page-row {
-  display: table-row;
-  height: 1px;
-} 
-.page-row-expanded { 
-  height: 100%; 
-}

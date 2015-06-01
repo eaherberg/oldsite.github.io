@@ -11,6 +11,9 @@ body {
   font-family: Georgia;
   font-size: ms(0);
 	line-height: ms(0) * 2;
+	display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 a {
