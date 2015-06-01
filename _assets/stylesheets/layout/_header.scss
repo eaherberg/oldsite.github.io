@@ -1,6 +1,6 @@
 .site-header {
 	background: #fff;
-	border-bottom: 1px solid $dark-blue;
+	border-bottom: 1px solid $primary-color;
 	padding-top: 16px;
 	height: 70px;
 
@@ -9,7 +9,7 @@
 		text-transform: uppercase;
 		letter-spacing: 1px;
 	}
-	
+	a {color: darken($primary-color, 40%)};
 	.site-nav {
 		float:right;
 		ul {
@@ -26,5 +26,5 @@
 			}
 		}
 	}
-	.current { font-weight: 600 }
+	.current { font-family: $serif-bold };
 }

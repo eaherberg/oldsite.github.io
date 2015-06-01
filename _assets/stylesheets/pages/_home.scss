@@ -2,7 +2,7 @@
 	.banner {
 		position: relative;
 		height: 80vh;
-		background-color: #222;
+		background-color: $primary-color;
 		// background-image: linear-gradient(rgba(176, 140, 193, 0.4), rgba(218, 197, 93, 0.5));
 		// background-repeat: no-repeat;
 		// background-position: 50% 50%;
@@ -24,7 +24,7 @@
 			h2 {
 				font-family: $serif-light;
 				font-size: ms(1);
-				color: rgba(255,255,255,.9);
+				color: rgba(255,255,255,.6);
 			}
 		}
 	}
