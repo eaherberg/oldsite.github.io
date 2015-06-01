@@ -5,9 +5,9 @@
 
   <body class="{% if page.id %}{{ page.id | slugify }}{% else %}home{% endif %}">
   	{% include header.html %}
-    <div class="main">
+    <main>
     	{{ content }}
-    </div>
+    </main>
     {% include footer.html %}
   </body>
 

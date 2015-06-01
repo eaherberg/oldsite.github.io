@@ -12,4 +12,9 @@ $susy: (
 	@include container;
 }
 
-.main { flex: 1; }
+main { 
+	-webkit-box-flex: 1 0 auto;
+	-ms-flex: 1 0 auto;
+	flex: 1 0 auto;
+	-webkit-flex: 1 0 auto;
+}
