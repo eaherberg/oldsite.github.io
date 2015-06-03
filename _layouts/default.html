@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body class="{% if page.id %}{{ page.id | slugify }}{% else %}home{% endif %}">
+  <body class="{% if page.id %}{{ page.id | slugify }}{% endif %}">
   	{% include header.html %}
     <main>
     	{{ content }}

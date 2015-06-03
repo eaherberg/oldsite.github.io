@@ -4,8 +4,9 @@ $susy: (
   gutters: 1/4,
   math: fluid,
   output: float,
-  gutter-position: inside,
+  gutter-position: outside,
   global-box-sizing: border-box,
+	//debug: (image: show)
 );
 
 .content {
