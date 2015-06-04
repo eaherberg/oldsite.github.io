@@ -8,26 +8,29 @@ $ms-ratio: $golden;
 $line-height: 1.75;
 
 //FONTS
-$sans-light: 'open_sanslight';
-$sans-light-italic: 'open_sanslight_italic';
+$sans-light: 'open_sanslight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$sans-light-italic: 'open_sanslight_italic', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
-$sans-regular: 'open_sansregular';
-$sans-italic: 'open_sansitalic';
+$sans-regular: 'open_sansregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$sans-italic: 'open_sansitalic', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
-$sans-semibold: 'open_sanssemibold';
-$sans-semibold-italic: 'open_sanssemibold_italic';
+$sans-semibold: 'open_sanssemibold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$sans-semibold-italic: 'open_sanssemibold_italic','Helvetica Neue', Helvetica, Arial, sans-serif;
 
-$sans-bold: 'open_sansbold';
-$sans-bold-italic: 'open_sansbold_italic';
+$sans-bold: 'open_sansbold','Helvetica Neue', Helvetica, Arial, sans-serif;
+$sans-bold-italic: 'open_sansbold_italic','Helvetica Neue', Helvetica, Arial, sans-serif;
 
-$sans-xbold: 'open_sansextrabold'; 
-$sans-xbold-italic: 'open_sansextrabold_italic';
+$sans-xbold: 'open_sansextrabold','Helvetica Neue', Helvetica, Arial, sans-serif; 
+$sans-xbold-italic: 'open_sansextrabold_italic','Helvetica Neue', Helvetica, Arial, sans-serif;
 
-$serif-light: 'merriweatherlight';
-$serif-regular: 'merriweatherregular';
-$serif-bold: 'merriweatherbold';
+$serif-light: 'merriweatherlight',Georgia, Times, 'Times New Roman', serif;
+$serif-regular: 'merriweatherregular',Georgia, Times, 'Times New Roman', serif;
+$serif-bold: 'merriweatherbold',Georgia, Times, 'Times New Roman', serif;
+
+$sans-generic: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 // COLORS
-$primary-color: #C6D0D9;
+// $primary-color: #C6D0D9;
+$primary-color: #bacad9;
 $secondary-color: #822F2E;
 $body-link: #257EE4;

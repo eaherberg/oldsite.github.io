@@ -10,21 +10,32 @@
 	}
 	.banner-content {
 		position: absolute;
-		top: 30%;
+		top: 25%;
 		left: 0;
 		right: 0;
 		h1 {
 			font-family: $sans-bold;
 			font-size: ms(3);					
-			color: rgba(255,255,255,.9);
-			margin:0 0 20px 0;
+			color: #fff;
+			@include opacity(.9);
+			margin: 60px 0 20px 0;
 			padding: 0;
 			text-transform: uppercase;
 		}
 		h2 {
 			font-family: $serif-light;
 			font-size: ms(1);
-			color: rgba(255,255,255,.6);
+			color: #fff;
+			@include opacity(.8);
+		}
+		.box {
+			font-family: $sans-bold;
+			font-size: ms(1);
+			color: #fff;
+			@include opacity(.5);
+			border: 5px solid #fff;
+			display: inline;
+			padding: 10px 20px;
 		}
 	}
 	.about {
@@ -34,21 +45,74 @@
 			width: 100%;
 			text-align: center;
 		}
-		.photo-container {
+		.profile-photo {
 			@include span(6);
 			text-align: center;
-			margin-top: 100px;
+			margin-top: 60px;
 			img {
 				border: 5px solid $primary-color;
 				border-radius: 250px;
 				display: block;
 				width: 250px;
-				margin: auto;
+				margin: 0 auto 15px;
+			}
+			h4 {
+				font-family: $sans-semibold;
+				color: darken($primary-color, 40%);
+				margin-bottom: 0;
+			}
+			p {
+				color: #999;
+				font-family: $serif-regular;
+				font-size: 13px;
 			}
 		}
 		.about-copy {
 			@include span(last 6);
 		}
-		
+	}
+	.presentations {
+		background: darken($primary-color,57%);
+		padding: 50px 0;
+		.presentation-info {
+			@include span(isolate 4 at 3);
+			h3,h5,p { color: rgba(255,255,255,.5) }
+			p {
+				font-family: $sans-regular;
+				font-size: 14px;
+				line-height: 1.7;
+				margin-bottom: 14px;
+			}
+			ul { padding: 0}
+			li { list-style: none; }
+		}
+		.presentation-image {
+			@include span(isolate 3 at 8);
+			img {
+				margin-top: 70px;
+				border-radius: 5px;
+			}
+		}
 	}
 }	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
