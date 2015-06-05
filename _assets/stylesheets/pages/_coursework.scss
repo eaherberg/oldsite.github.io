@@ -1,0 +1,24 @@
+.coursework-samples {
+	ul.course-samples-list {
+		padding: 0;
+		li {
+		border-bottom: 1px solid #ddd;
+		list-style: none;
+		margin-bottom: 50px;
+		padding-bottom: 18px;
+		@include span(7)
+			}
+		}
+	.h5-secondary {
+		color: darken($primary-color, 40%);
+		font-family: $sans-bold;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 11px;
+		line-height: 2.2;
+		margin-bottom: 5px;
+		display: inline-block;
+		border-bottom: 1px dotted darken($primary-color, 40%);
+	}
+
+}

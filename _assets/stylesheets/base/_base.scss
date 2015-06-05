@@ -39,7 +39,7 @@ img { max-width: 100% }
 h1, h2, h3, h4, h5, h6 {
 	color: darken($primary-color, 40%);
  	margin-top: 0;
-  font-family: $sans-bold;
+  font-family: $sans-semibold;
   letter-spacing: .01em;
 }
 
@@ -59,13 +59,11 @@ h2 {
 h3 {
 	font-size: ms(1);
 	line-height: ms(1) * 1.6;
-
 }
 
 h4 {
 	font-size: ms(.5);
 	line-height: ms(.5) * 1.8;
-
 }
 
 h5 {
@@ -81,6 +79,11 @@ h6 {
 p, ul, ol, pre, table, blockquote { 
 	margin-top: 0;
 	margin-bottom: ms(0) * 2
+}
+
+.secondary {
+	font-family: $sans-regular;
+	font-size: ms(0);
 }
 
 small, .font_small {
