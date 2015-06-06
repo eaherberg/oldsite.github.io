@@ -8,8 +8,62 @@
 		.resume-header {
 			@include span(4);
 		}
-		.resume-content {
-			@include span(last 8);
+	}
+	.meta {
+		font-family: $sans-regular;
+		color: darken($primary-color, 30%);
+		font-size: 13px;
+		margin-bottom: 30px;
+	}
+
+	h4 {margin-bottom: 0}	
+		
+	.resume-content {
+		@include span(last 8);
+		position: relative;
+		ul { 
+			padding: 0;
+			li{
+				list-style: none;
+				margin-bottom: 15px;
+				display: block;
+				&:before {
+					content: '';
+					width: 5px;
+					height: 2px;
+					background-color: darken($primary-color, 30%);
+					position: relative;
+					display: block;
+					left: -15px;
+					top: 16px;
+				}
+			}
 		}
 	}
+
+	//.objective .resume-content, .skills .resume-content { margin-top: 5px; }
+
+
+	.experience .resume-content > div {
+		margin-bottom: 50px;
+		&:after {
+			content: '';
+			width: 60px;
+			height: 2px;
+			background-color: $primary-color;
+			position: relative;
+			top: 10px;
+			display: block;
+		}
+		&:last-child:after {
+			content:'';
+			width: 0;
+			height: 0;
+		}
+	}
+
+	.education {
+		p { margin-bottom: 0; }
+		.resume-content > div { margin-bottom: 30px; }
+	} 
 }

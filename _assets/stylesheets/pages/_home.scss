@@ -46,14 +46,14 @@
 			text-align: center;
 		}
 		.profile-photo {
-			@include span(6);
+			@include span(6 last);
 			text-align: center;
-			margin-top: 60px;
+			margin-top: 40px;
 			img {
 				border: 5px solid $primary-color;
-				border-radius: 250px;
+				border-radius: 300px;
 				display: block;
-				width: 250px;
+				width: 300px;
 				margin: 0 auto 15px;
 			}
 			h4 {
@@ -68,15 +68,25 @@
 			}
 		}
 		.about-copy {
-			@include span(last 6);
+			@include span(6);
 		}
 	}
 	.presentations {
 		background: darken($primary-color,57%);
 		padding: 50px 0;
+		h3 {@include span(isolate 8 at 4);}
+		.presentation-image {
+			@include span(isolate 3 at 4);
+			@include break;
+			img {
+				margin-top: 20px;
+				border-radius: 5px;
+			}
+		}
 		.presentation-info {
-			@include span(isolate 4 at 3);
-			h3,h5,p { color: rgba(255,255,255,.5) }
+			@include span(isolate 4 at 7);
+			margin-top: 35px;
+			h5,p { color: rgba(255,255,255,.5) }
 			p {
 				font-family: $sans-regular;
 				font-size: 14px;
@@ -86,12 +96,9 @@
 			ul { padding: 0}
 			li { list-style: none; }
 		}
-		.presentation-image {
-			@include span(isolate 3 at 8);
-			img {
-				margin-top: 70px;
-				border-radius: 5px;
-			}
-		}
 	}
 }
+
+
+
+

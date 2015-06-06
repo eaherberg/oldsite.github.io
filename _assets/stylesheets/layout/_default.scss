@@ -1,8 +1,9 @@
 $susy: (
-	container: 1100px,
+	container: auto,
   columns: 12,
+  column-width: 75px,
   gutters: 1/4,
-  math: fluid,
+  math: static,
   output: float,
   gutter-position: outside,
   global-box-sizing: border-box,
