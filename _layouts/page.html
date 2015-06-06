@@ -2,13 +2,21 @@
 layout: default
 ---
 
-  <header class="page-banner">
-  	<div class="content">
-    	<h1>{{ page.id }}</h1>
-			{% if page.title %}<h3>{{ page.title}}</h3>{% endif %}
-    </div>
-  </header>
-  <div class="content">
-    {{ content }}
+<header class="page-banner">
+	<div class="content">
+  	<h1>{{ page.pname }}</h1>
   </div>
+</header>
+<div class="content">
+	{% if page.id == 'ref-entry' %}
+		<article>
+		<h3>{{page.title}}</h3>{{ content }}</article>
+	{% else %}
+		{{ content }}
+	{% endif %}
+
+	{% if page.id == 'ref-entry' %}
+  	{% include reflections-list.html %}
+  {% endif %}
+</div>
 

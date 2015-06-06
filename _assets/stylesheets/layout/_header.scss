@@ -8,6 +8,10 @@
 		font-family:$sans-bold;
 		text-transform: uppercase;
 		letter-spacing: 1px;
+		&:hover { 
+			text-decoration: none;
+			color: darken($primary-color, 20%)
+		}
 	}
 	a {color: darken($primary-color, 40%)};
 	.site-nav {

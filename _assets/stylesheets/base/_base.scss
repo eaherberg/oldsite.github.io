@@ -30,7 +30,8 @@ a {
         @extend a;
     }
     &:hover {
-        color: lighten($body-link, 20%);
+        color: darken($body-link, 20%);
+        text-decoration: underline;
     }
 }
 

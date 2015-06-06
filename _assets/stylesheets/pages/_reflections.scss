@@ -1,0 +1,61 @@
+.reflections {
+	article {
+		@include span(8 last);
+		margin-bottom: ms(0) * 8;
+		position: relative;
+		&:after {
+				content: '';
+				background-color: $primary-color;
+				width: 60px;
+				height: 3px;
+				position: absolute;
+				left: 0;
+			}
+	}
+	aside {
+		@include span(3);
+		border-right: 1px solid #eee;
+		position: relative;
+		h5 { 
+			padding-left: 15px; 
+			margin-bottom: .75rem;
+		}
+		ul { 
+			padding: 0; 
+			li { 
+				list-style: none;
+				margin-bottom: ms(0) * 1.2;
+				font-family: $sans-semibold;
+				font-size: 13px;
+				line-height: 1.5;
+			}
+			li.ref-current {
+				background-color: rgba($primary-color, .2);
+				border-left: 3px solid $primary-color;
+				padding: 8px 15px;
+	
+			}
+			a {
+				display: block;
+				font-family: $sans-regular;
+				padding: 8px 15px;
+			}
+		}
+		> div {
+			margin-bottom: 60px;
+			&:after {
+				content: '';
+				background-color: $primary-color;
+				width: 30px;
+				height: 3px;
+				position: absolute;
+				left: 15px;
+			}
+			&:last-child:after {
+					content: '';
+					width: 0;
+					height: 0;
+			}
+		}
+	}
+}
