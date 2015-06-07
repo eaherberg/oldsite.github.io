@@ -9,3 +9,20 @@
 
 	}
 }
+
+.resume, .cover-letter {
+	.page-banner h1 {
+		.selected {
+			border-bottom: 1px dotted #999;
+			font-family: $sans-semibold;
+		}
+		a {
+			font-family: $sans-light;
+			color: lighten($primary-color, 10%);
+			&:hover {
+				text-decoration: none;
+				color: $primary-color;
+			}
+		}
+	}
+}

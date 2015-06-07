@@ -5,10 +5,10 @@ layout: default
 <header class="page-banner">
 	<div class="content">
   	{% if page.pname == 'Resume' %}
-  	<h1>Resume/<a href="{{site.baseurl}}/cover-letter">Cover Letter</a></h1>
+  	<h1><span class="selected">Resume</span> / <a href="{{site.baseurl}}/cover-letter">Cover Letter</a></h1>
   	{% endif %}
   	{% if page.pname == 'Cover Letter' %}
-  		<h1><a href="{{site.baseurl}}/resume">Resume</a>/Cover Letter</h1>
+  		<h1><a href="{{site.baseurl}}/resume">Resume</a> / <span class="selected">Cover Letter</span></h1>
   	{% endif %}
   </div>
 </header>
