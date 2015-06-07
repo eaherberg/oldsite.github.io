@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<header class="page-banner">
+	<div class="content">
+  	{% if page.pname == 'Resume' %}
+  	<h1>Resume/<a href="{{site.baseurl}}/cover-letter">Cover Letter</a></h1>
+  	{% endif %}
+  	{% if page.pname == 'Cover Letter' %}
+  		<h1><a href="{{site.baseurl}}/resume">Resume</a>/Cover Letter</h1>
+  	{% endif %}
+  </div>
+</header>
+<div class="content">
+		{{ content }}
+</div>
+
