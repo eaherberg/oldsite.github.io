@@ -1,0 +1,35 @@
+.professional-development {
+	.intro-content {
+		@extend %clearfix;
+		margin-bottom: 60px;
+		padding-bottom: 30px;
+		border-bottom: 1px solid #ddd;
+		figure {
+			@include gallery(4 last);
+		}
+	}
+	.project {
+		border-bottom: 1px solid #ddd;
+		margin-bottom: 60px;
+		padding-bottom: 30px;
+		@extend %clearfix;
+		.project-detail {
+			@include span(8);
+		}
+		.project-deliverables {
+			@include break;
+			ul {
+				padding: 0;
+				li{
+					list-style: none;
+					float: left;
+					margin-right: 80px;
+					img {
+						border: 1px solid #ddd;
+					}
+				}
+			}
+		}	
+	}
+
+}

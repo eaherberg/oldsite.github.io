@@ -7,12 +7,12 @@ $susy: (
   output: float,
   gutter-position: outside,
   global-box-sizing: border-box,
-	debug: (
-    image: show,
-    color: rgba(255,100,100, .2),
-    output: overlay,
-    toggle: top right,
-  ),
+	// debug: (
+ //    image: show,
+ //    color: rgba(255,100,100, .2),
+ //    output: overlay,
+ //    toggle: top right,
+ //  ),
 );
 
 .content {
