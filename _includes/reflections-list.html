@@ -1,11 +1,12 @@
 <aside class="reflections-list">
+
 	<div>
-	  <h5 class="upcase">Fall 2014</h5>	
+		<h5 class="upcase">Spring 2015</h5>	
 	  <ul>
 			{% for p in site.pages %}
-				{% if p.category contains 'fall' and p.url != page.url %}
+				{% if p.category contains 'spring' and p.url != page.url %}
 					<li><a href="{{p.url}}">{{p.title}}</a></li>
-					{% elsif p.category contains 'fall' and p.url == page.url %}
+					{% elsif p.category contains 'spring' and p.url == page.url %}
 					<li class="ref-current">{{p.title}}</li>
 				{% endif %}
 			{% endfor %}
@@ -26,12 +27,12 @@
 	</div>
 
 	<div>
-		<h5 class="upcase">Spring 2015</h5>	
+	  <h5 class="upcase">Fall 2014</h5>	
 	  <ul>
 			{% for p in site.pages %}
-				{% if p.category contains 'spring' and p.url != page.url %}
+				{% if p.category contains 'fall' and p.url != page.url %}
 					<li><a href="{{p.url}}">{{p.title}}</a></li>
-					{% elsif p.category contains 'spring' and p.url == page.url %}
+					{% elsif p.category contains 'fall' and p.url == page.url %}
 					<li class="ref-current">{{p.title}}</li>
 				{% endif %}
 			{% endfor %}
