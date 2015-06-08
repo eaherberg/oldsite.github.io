@@ -1,4 +1,13 @@
 .professional-development {
+	.page-banner {
+	  background-image: -webkit-linear-gradient(rgba(113, 145, 175, 0.7), rgba(113, 145, 175, 0.7)), url(asset_path('images/banner-pro-dev.png'));
+	  background-image: -o-linear-gradient(rgba(113, 145, 175, 0.7), rgba(113, 145, 175, 0.7)), url(asset_path('images/banner-pro-dev.png'));
+	  background-image: linear-gradient(rgba(113, 145, 175, 0.7), rgba(113, 145, 175, 0.7)), url(asset_path('images/banner-pro-dev.png'));
+	  background-position: 50% 60%;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+		height: 330px;
+	}
 	.intro-content {
 		@extend %clearfix;
 		margin-bottom: 60px;

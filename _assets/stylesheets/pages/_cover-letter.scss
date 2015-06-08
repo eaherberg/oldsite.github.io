@@ -1,4 +1,12 @@
 .cover-letter {
+	.page-banner {
+	  background-image: -webkit-linear-gradient(rgba(113, 145, 175, 0.7), rgba(113, 145, 175, 0.7)), url(asset_path('images/banner-resume.png'));
+	  background-image: -o-linear-gradient(rgba(113, 145, 175, 0.7), rgba(113, 145, 175, 0.7)), url(asset_path('images/banner-resume.png'));
+	  background-image: linear-gradient(rgba(113, 145, 175, 0.7), rgba(113, 145, 175, 0.7)), url(asset_path('images/banner-resume.png'));
+	  background-repeat: no-repeat;
+	  background-size: cover;
+		height: 330px;
+	}
 	.address {
 		margin-bottom: ms(0) * 5;
 		p {
@@ -7,7 +15,4 @@
 			color: #222;
 		}
 	}
-
-
-
 }

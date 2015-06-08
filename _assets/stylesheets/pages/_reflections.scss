@@ -1,4 +1,13 @@
 .reflections {
+	.page-banner {
+	  background-image: -webkit-linear-gradient(rgba(113, 145, 175, 0.7), rgba(113, 145, 175, 0.7)), url(asset_path('images/banner-reflections.png'));
+	  background-image: -o-linear-gradient(rgba(113, 145, 175, 0.7), rgba(113, 145, 175, 0.7)), url(asset_path('images/banner-reflections.png'));
+	  background-image: linear-gradient(rgba(113, 145, 175, 0.7), rgba(113, 145, 175, 0.7)), url(asset_path('images/banner-reflections.png'));
+	  background-position: 50% 30%;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+		height: 330px;
+	}
 	article {
 		@include span(8 last);
 		margin-bottom: ms(0) * 8;
