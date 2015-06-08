@@ -1,5 +1,11 @@
 <aside class="reflections-list">
-
+	<div class="cumulative">
+		{% if page.title != 'Cumulative Reflection' %}
+		<h5 class="upcase">
+		<a href="{{site.baseurl}}/reflections">Cumulative Reflection</a>
+		{% else %}<h5 class="upcase bg">Cumulative Reflection &nbsp;&nbsp;&#10095;</h5>
+		{% endif %}
+	</div>
 	<div>
 		<h5 class="upcase">Spring 2015</h5>	
 	  <ul>
